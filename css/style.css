@@ -27,6 +27,23 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+@font-face {
+    font-family: patua-one;
+    src: url("../assets/Patua_One/PatuaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins-extralight;
+    src: url("../assets/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url("../assets/");
+}
+
+
+
 * {
     box-sizing: border-box !important;
     transition: ease all 0.5s;
@@ -38,8 +55,9 @@ html {
 
 body {
     color: #666666;
+    /* font-family: poppins-light; */
     font-size: 14px;
-    font-family: Raleway;
+    /* font-family: Raleway; */
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
@@ -63,6 +81,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: patua-one;
     letter-spacing: 0;
     font-weight: normal;
     position: relative;
@@ -133,6 +152,7 @@ ol {
 }
 
 p {
+    /* font-family: poppins-light; */
     margin: 20px;
     font-weight: 300;
     font-size: 15px;
@@ -357,6 +377,7 @@ button {
 }
 
 .lorem_text {
+    /* font-family: poppins-light; */
     width: 100%;
     float: left;
     font-size: 16px;
@@ -447,7 +468,7 @@ button {
     font-size: 16px;
     color: #ffffff;
     border-radius: 5px;
-    background-color: #e05306;
+    background-color: #4878ea;
     height: 50px;
     font-weight: bold;
     margin-top: 40px;
@@ -458,7 +479,7 @@ button {
 
 .about_bt a {
     color: #ffffff;
-    background-color: #e05306;
+    /* background-color: #a4a4ff; */
 }
 
 .about_bt a:hover {
